@@ -106,7 +106,8 @@ nav ul {
     width: max-content;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1
+    );
 }
 
 .product_details span{
@@ -304,10 +305,132 @@ strike{
 }
 
 
+/**Conatct Us**/
+
+.contact_us{
+    margin-top: 100px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.contact_us_image {
+    width: 50%;
+}
+
+.contact_us_image img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 3px;
+} 
 
 
+.contact_us_form form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    gap: 10px;
+    margin-left: 130px;
 
+}
 
+.contact_us_form form label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact_us_form form input{
+    width: 350px;
+    border: 2px solid #2d6a4f;
+    border-radius: 7px;
+    height: 40px;
+    padding-left: 10px;
+}
+.contact_us_form h1{
+    margin-left: 130px;
+    font-family: "Roboto", sans-serif;
+    color: #2d6a4f;
+    margin-bottom: 30px;
+}
+.contact_us_form form button{
+    margin-top: 20px;
+    background-color: #2d6a4f;
+    padding: 14px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.contact_us_form form textarea{
+    width: 350px;
+    border: 2px solid #2d6a4f;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    background-color: #2d6a4f;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+footer .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .store_details{
+    display: flex;
+    gap: 15px;
+
+}
+
+footer .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.store_details span{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.copy_rights{
+    background-color: #2d6a4f;
+}
+
+.copy_rights hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_rights p{
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
 
 
 
@@ -352,6 +475,8 @@ strike{
     .about{
         display: flex;
         flex-direction: column;
+        margin-bottom: 40px;
+        margin-top: 30px;
 
     }
 
@@ -366,6 +491,35 @@ strike{
         justify-content: center;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .contact_us_image{
+        display: none;
+    }
+    .contact_us_form form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-left: 65px;
+    }
+    .contact_us_form form button{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .copy_rights hr{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
 }
